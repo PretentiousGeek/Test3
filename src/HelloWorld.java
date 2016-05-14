@@ -20,12 +20,12 @@ public class HelloWorld {
             loop();
  
             // Free the window callbacks and destroy the window
-            glfwReleaseCallbacks(window);
+            glfwFreeCallbacks(window);
             glfwDestroyWindow(window);
         } finally {
             // Terminate GLFW and free the error callback
             glfwTerminate();
-            glfwSetErrorCallback(null).release();
+            glfwSetErrorCallback(null).free();
         }
     }
  
