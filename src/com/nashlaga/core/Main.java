@@ -15,14 +15,14 @@ public class Main implements Runnable{
 	public Long window;
 	
 	public static void main(String[] args) {
-		// Main method
+		// Main method - starts here.
 		Main game = new Main();
 		game.start();
 	}
 	
 	public void start(){
 		running = true;
-		thread = new Thread(this, "GLExplore");
+		thread = new Thread(this, "LéMemeStation");
 		thread.start();
 	}
 	
@@ -33,7 +33,7 @@ public class Main implements Runnable{
 		
 		glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
 		
-		window = glfwCreateWindow(800, 600, "GLExplore", NULL, NULL);
+		window = glfwCreateWindow(800, 600, "Lé Memé Stácion", NULL, NULL);
 		
 		if(window == NULL){
 			System.err.println("Failed to create window!");
