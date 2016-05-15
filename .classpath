@@ -2,8 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="E:/Game Design/Eclipse/Test3/LWJGL/jar/lwjgl.jar">
+	<classpathentry kind="lib" path="E:/Game Design/Eclipse/Test3/LWJGL/jar/lwjgl.jar" sourcepath="LWJGL/src.zip">
 		<attributes>
+			<attribute name="javadoc_location" value="file:/E:/Game%20Design/Eclipse/Test3/LWJGL/doc/"/>
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Test3/LWJGL/native"/>
 		</attributes>
 	</classpathentry>
